@@ -1,0 +1,46 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    transition: ease-in .1s;
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+#g-length {
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+}
+
+#g-button {
+    padding: 5px 15px;
+    font-size: 18px;
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 0 3px 0 0 #000;
+    margin-bottom: 15px;
+}
+
+#g-button:hover {
+    box-shadow: 0 0 0 0 #000;
+    transform: translateY(3px);
+}
+
+#g-hint {
+    color: darkgray;
+    font-size: 9px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
